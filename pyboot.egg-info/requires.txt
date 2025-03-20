@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+pika
+redis
+kafka-python
+tensorflow
+transformers

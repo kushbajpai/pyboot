@@ -1,0 +1,2 @@
+[console_scripts]
+pyboot-cli = pyboot.cli:main
