@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "pyboot"
+version = "0.1.0"
+authors = [{ name="Your Name", email="your@email.com" }]
+description = "PyBoot - The Bootstrap for Python"
+readme = "README.md"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pydantic",
+    "sqlalchemy",
+    "pika",
+    "redis",
+    "kafka-python",
+    "tensorflow",
+    "transformers"
+]
+
+[project.scripts]
+pyboot-cli = "pyboot.cli:main"
